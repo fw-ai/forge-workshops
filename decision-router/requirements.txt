@@ -1,0 +1,10 @@
+# The Fireworks training cookbook at the commit these notebooks were written against.
+# Brings fireworks-ai (>=1.2.27), transformers, datasets, torch and the decision trainer.
+fireworks-training-cookbook @ git+https://github.com/fw-ai/cookbook.git@440332c7e1ffb201c8a1b908167d6df749d3d5b8#subdirectory=training
+
+langchain>=1.4,<2
+langchain-fireworks>=1.5,<2
+matplotlib
+pandas
+python-dotenv
+ipykernel

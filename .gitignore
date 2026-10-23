@@ -1,0 +1,26 @@
+# Secrets and environments
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Run outputs (logs, scores, figures) are written per run and not committed...
+**/runs/*
+# ...except the research agent's closed-book caches, which make its data step instant.
+!research-agent-rl/runs/closedbook_*.json
+
+# The router's cached model answers make its LangChain notebook fast and free to re-run
+!decision-router/runs/replay_answers.jsonl
+
+# Slide material lives in Google Slides
+*.pptx
+**/SLIDE_HANDOFF.md
+**/*Deck_Feedback.md
+
+# Figures the training notebook saves on each run
+research-agent-rl/fig_*.png
+
+# Datasets downloaded on first run
+research-agent-rl/data/*
+!research-agent-rl/data/.gitkeep
