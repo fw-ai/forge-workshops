@@ -1,0 +1,10 @@
+# Fireworks Training SDK + cookbook renderers (GLM-5.3 renderer, SFT datum rendering)
+fireworks-ai[training]==1.2.27
+fireworks-training-cookbook @ git+https://github.com/fw-ai/cookbook.git@440332c7e1ffb201c8a1b908167d6df749d3d5b8#subdirectory=training
+torch
+numpy
+matplotlib
+tqdm
+openai
+python-dotenv
+jupyter
